@@ -55,7 +55,7 @@ export class CheckoutComponent implements OnInit {
         return this.dataSvc.saveDetailsOrder({details, orderId});
       }),
       tap(() => this.router.navigate(['/checkout/thanks-page'])),
-      delay(1000),
+      delay(2000),
       tap(() => this.shoopingCartSvc.resetCart()),
     )
     .subscribe();

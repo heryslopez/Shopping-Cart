@@ -8,17 +8,17 @@ import { Product } from '../interfaces/product.interface';
   providedIn: 'root'
 })
 export class ProductsService {
-  private apiUrl = 'http://localhost:3000/products';
+  private apiUrl = 'https://testshoppingcart-e0498-default-rtdb.firebaseio.com';
   constructor(private http: HttpClient) { }
   //nos vas a delvolver un tipo observable es un flujo de datos en este caso
   //sera productos
   getProducts():Observable<Product[]>{
     //nos va a devolver lo que nos responda la api
-    return this.http.get<Product[]>(this.apiUrl);
+    return this.http.get<Product[]>(this.apiUrl + '/products.json');
   }
 
   updateStock(productId: number, stock: number): Observable<any>{
     const body = {"stock": stock};
-    return this.http.patch<any>(`${this.apiUrl}/${productId}`, body);
+    return this.http.patch<any>(`${this.apiUrl}/products/${productId - 1}.json`, body);
   }
 }

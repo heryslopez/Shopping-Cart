@@ -8,7 +8,7 @@ import { Store } from '../interfaces/stores.interface';
   providedIn: 'root'
 })
 export class DataService {
-  private apiURL ='https://db-shopping-cart-350a6-default-rtdb.firebaseio.com/';
+  private apiURL ='https://testshoppingcart-e0498-default-rtdb.firebaseio.com';
   constructor(private http: HttpClient) { }
   getStores(): Observable<Store[]>{
     return this.http.get<Store[]>(`${this.apiURL}/stores.json`);

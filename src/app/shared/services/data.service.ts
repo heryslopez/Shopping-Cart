@@ -8,17 +8,17 @@ import { Store } from '../interfaces/stores.interface';
   providedIn: 'root'
 })
 export class DataService {
-  private apiURL ='http://localhost:3000';
+  private apiURL ='https://db-shopping-cart-350a6-default-rtdb.firebaseio.com/';
   constructor(private http: HttpClient) { }
   getStores(): Observable<Store[]>{
-    return this.http.get<Store[]>(`${this.apiURL}/stores`);
+    return this.http.get<Store[]>(`${this.apiURL}/stores.json`);
   }
 
   saveOrder(order : Order): Observable<Order>{
-    return this.http.post<any>(`${this.apiURL}/orders`, order);
+    return this.http.post<any>(`${this.apiURL}/orders.json`, order);
   }
   saveDetailsOrder(details : DetailsOrder): Observable<DetailsOrder>{
-    return this.http.post<DetailsOrder>(`${this.apiURL}/detailsOrders`, details);
+    return this.http.post<DetailsOrder>(`${this.apiURL}/detailsOrders.json`, details);
   }
 
 

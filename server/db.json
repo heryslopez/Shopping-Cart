@@ -39,81 +39,89 @@
   "categories": [
     {
       "id": 1,
-      "name": "Books"
-    },
-    {
-      "id": 2,
       "name": "Electronics"
     },
     {
-      "id": 3,
+      "id": 2,
       "name": "Computers"
+    },
+    {
+      "id": 3,
+      "name": "Audios"
     }
   ],
   "products": [
     {
       "id": 1,
-      "name": "Essential TypeScript 4: From Beginner to Pro",
+      "name": "ERATON M190BL 910-005903 WIRELESS LOGITECH",
       "price": 45,
-      "description": "Learn the essentials and more of TypeScript, a popular superset of the JavaScript language that adds support for static typing. TypeScript combines the typing features of C# or Java.",
+      "image": "https://732166-2448411-raikfcquaxqncofqfm.stackpathdns.com/pub/media/mf_webp/png/media/catalog/product/cache/0b781c169ebdcef6f5aeeb828beb89af/m/o/mouse-logitech-m187-inalambrico-verde_m37a6pteiimbw3us.webp",
+      "description": "RATON M190BL 910-005903 WIRELESS LOGITECH. Sistema operativo compatible: Windows® 7,9,10 o posterior. macOS 10.10 o posterior. Chrome OS™. Linux® kernel 2.6+. Interfaz: USB.",
       "categoryId": 1,
-      "stock": 0
+      "stock": 10
     },
     {
       "id": 2,
-      "name": "Hackeando el cerebro de tus compradores: PsychoGrowth",
+      "name": "Ups CDP R-SMART751 750VA",
       "price": 5,
-      "description": "En Hackeando del cerebro de tus compradores, Corti nos revela cómo muchas compañías crean productos digitales o procesos de venta capaces de conectar con la psicología del comprador.",
+      "image": "https://732166-2448411-raikfcquaxqncofqfm.stackpathdns.com/pub/media/mf_webp/png/media/catalog/product/cache/0b781c169ebdcef6f5aeeb828beb89af/u/p/ups-cdp-modelo-r-smart751-750va-10-out-350w_lhyuyssgrkonw0zq.webp",
+      "description": "UPS Modelo NT-751 Sistema de alimentación ininterrumpible Protección eléctrica para equipos de uso doméstico y comercial Regulador de voltaje (AVR), corrige automáticamente las variaciones en el suministro 6 tomacorrientes con supresión de sobretensiones respaldo de batería.",
       "categoryId": 1,
-      "stock": 7
+      "stock": 10
     },
     {
       "id": 3,
-      "name": "Angular Routing: Learn To Create client-side and SPA with Routing and Navigation",
+      "name": "Notebook Dell G5 15 5510 - W9XCT - I5-10200H/8GB/512GB SSD/NVIDIA 4GB/W10H/15.6",
       "price": 17,
-      "description": "In this book, the reader will be able to focus on one concept of Angular in deep.",
-      "categoryId": 1,
+      "image": "https://732166-2448411-raikfcquaxqncofqfm.stackpathdns.com/pub/media/mf_webp/png/media/catalog/product/cache/0b781c169ebdcef6f5aeeb828beb89af/n/o/notebook-dell-g5-15-5510---w9xct2.webp",
+      "description": "Laptop para juegos de 15 pulgadas con procesadores Intel® Core™ de 10.ª generación, gráficos Nvidia® GeForce®, refrigeración de dos ventiladores y tecnología Game Shift.",
+      "categoryId": 2,
       "stock": 10
     },
     {
       "id": 4,
-      "name": "SanDisk 128GB Ultra MicroSDXC UHS-I Memory Card with Adapter",
+      "name": "Notebook HP Pavilion Laptop 15-EH0011LA | AMD Ryzen™ 7 4700U | 16GB RAM | 512GB SSD PCIe",
       "price": 19,
-      "description": "Ideal for Android smartphones and tablets, and MIL cameras. SanDisk Memory Zone app for easy file management (Download and Installation Required).",
-      "categoryId": 2,
-      "stock": 9
-    },
-    {
-      "id": 5,
-      "name": "GoPro HERO9 Black - Waterproof Action Camera with Front LCD",
-      "price": 399,
-      "description": "5K Video - Shoot stunning video with up to 5K resolution, perfect for maintaining detail even when zooming in",
-      "categoryId": 2,
-      "stock": 9
-    },
-    {
-      "id": 6,
-      "name": "CL3 Rated High-Speed 4K HDMI Cable - 6 Feet",
-      "price": 7,
-      "description": "HDMI A Male to A Male Cable: Supports Ethernet, 3D, 4K video and Audio Return Channel (ARC)",
+      "image": "https://732166-2448411-raikfcquaxqncofqfm.stackpathdns.com/pub/media/mf_webp/jpg/media/catalog/product/cache/0b781c169ebdcef6f5aeeb828beb89af/n/o/notebook-hp-pavilion-laptop-15-eh0011la-_-amd-ryzen_-7-4700u-_-16gb-ram-_-512gb-ssd-pcie.webp",
+      "description": "Sistema operativo: Windows 10 Home 64 HP Pavilion Laptop 15-eh0011la Microprocesador: AMD Ryzen™ 7 4700U (velocidad base de 2,0 GHz, velocidad de ráfaga máxima...",
       "categoryId": 2,
       "stock": 10
     },
     {
-      "id": 7,
-      "name": "Logitech MK270 Wireless Keyboard and Mouse Combo",
-      "price": 32,
-      "description": "The USB receiver is conveniently located in the box, top flap. This wireless keyboard and mouse feature Logitech Advanced 2.4GHz technology with a range of up to 10 metres.",
+      "id": 5,
+      "name": "Notebook Lenovo E14 GEN3",
+      "price": 399,
+      "image": "https://732166-2448411-raikfcquaxqncofqfm.stackpathdns.com/pub/media/mf_webp/jpg/media/catalog/product/cache/0b781c169ebdcef6f5aeeb828beb89af/0/4/04701-1689_02.webp",
+      "description": "RYZEN 5-5500U 2.1G/ 8GB DDR4 256GB SSD/14/W10P Laptop de 14” con procesamiento AMD Ryzen™ Pantalla FHD y sonido...",
+      "categoryId": 2,
+      "stock": 10
+    },
+    {
+      "id": 6,
+      "name": "Parlante LOGITECH Z607 Multimedia",
+      "price": 7,
+      "image": "https://732166-2448411-raikfcquaxqncofqfm.stackpathdns.com/pub/media/mf_webp/png/media/catalog/product/cache/0b781c169ebdcef6f5aeeb828beb89af/a/l/altavoces-z607-1_4yarlfn2sj4ahxqu.webp",
+      "description": "PARLANTE Z607 BT LOGITECH 980-001315 | Marca: Logitech | Potencia de salida máxima de los altavoces: 80 Vatios. | Bluetooth | True Sorround 5.1.",
       "categoryId": 3,
-      "stock": 9
+      "stock": 10
+    },
+    {
+      "id": 7,
+      "name": "Audifonos Kingston HyperX Cloud Orbit/Alambrico/HX-HSCOS-GM/W",
+      "price": 32,
+      "image": "https://732166-2448411-raikfcquaxqncofqfm.stackpathdns.com/pub/media/mf_webp/png/media/catalog/product/cache/0b781c169ebdcef6f5aeeb828beb89af/a/u/audifonos-kingston-hyperx-cloud-orbit-alambrico-hx-hscos-gm-ww-cn-bd1.webp",
+      "description": "Controladores magnéticos planos Audeze™ Audio 3D envolvente Waves Nx® Tecnología de seguimiento de cabeza Waves Nx® Personalización de audio avanzada Micrófono extraíble con cancelación de ruido y filtro antipop Tres opciones de cables...",
+      "categoryId": 3,
+      "stock": 10
     },
     {
       "id": 8,
-      "name": "External CD Drive USB 3.0 Portable CD DVD +/-RW Drive DVD/CD ROM",
+      "name": "Audifonos Apple Airpods Max - Pink/Bluetooth/MGYM3AM/A",
       "price": 20,
-      "description": "Plug & play. Easy to use,powered by USB port. No external driver and Power needed. Just plug it into your USB port and the DVD driver will be detected",
+      "image": "https://732166-2448411-raikfcquaxqncofqfm.stackpathdns.com/pub/media/mf_webp/png/media/catalog/product/cache/0b781c169ebdcef6f5aeeb828beb89af/m/g/mgym3am2.webp",
+      "description": "Presentamos los AirPods Max. El equilibrio perfecto entre un audio de alta fidelidad increíble y la mágica facilidad de uso de los AirPods. Tus próximos audífonos ya están aquí para brindarte una experiencia de audio inigualable.",
       "categoryId": 3,
-      "stock": 9
+      "stock": 10
     }
   ],
   "orders": [

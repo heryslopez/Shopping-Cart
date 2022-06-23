@@ -1,10 +1,16 @@
 <mat-card class="card" >
+    <img mat-card-image [src]="product.image" alt="" class="product-image">
     <mat-card-header>
-        <mat-card-title>
-            {{product.name}}
-        </mat-card-title>
+    <mat-card-title>{{product.name}}</mat-card-title>
     </mat-card-header>
     <mat-card-content>{{product.description}}</mat-card-content>
+    <mat-card-content><strong>Price:</strong> {{product.price | currency}} + IVA</mat-card-content>
+    <mat-card-content><strong>Stock:</strong> {{product.stock}}</mat-card-content>
+    <div [ngSwitch]="product.categoryId">
+        <p *ngSwitchCase="1"><strong>Category: </strong><strong style="color: #3f51b5;">Electronics</strong></p>
+        <p *ngSwitchCase="2"><strong>Category: </strong><strong style="color: #3f51b5">Computers</strong></p>
+        <p *ngSwitchCase="3"><strong>Category: </strong><strong style="color: #3f51b5;">Audios</strong></p>
+    </div>
     <mat-card-actions>
         <button mat-flat-button 
         color="primary" 

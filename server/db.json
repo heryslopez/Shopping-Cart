@@ -1,41 +1,4 @@
 {
-  "stores": [
-    {
-      "id": 1,
-      "name": "Park Row at Beekman St",
-      "address": "38 Park Row",
-      "city": "New York",
-      "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
-    },
-    {
-      "id": 2,
-      "name": "Store Alcalá",
-      "address": "Calle de Alcalá, 21",
-      "city": "Madrid",
-      "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
-    },
-    {
-      "id": 3,
-      "name": "Chambers and West Broadway",
-      "address": "125 Chambers Street",
-      "city": "New York",
-      "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
-    },
-    {
-      "id": 4,
-      "name": "Covent Garden - Russell St",
-      "address": "10 Russell Street",
-      "city": "London",
-      "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
-    },
-    {
-      "id": 5,
-      "name": "Monmouth St",
-      "address": "11 Monmouth Street",
-      "city": "London",
-      "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
-    }
-  ],
   "categories": [
     {
       "id": 1,
@@ -50,253 +13,16 @@
       "name": "Audios"
     }
   ],
-  "products": [
-    {
-      "id": 1,
-      "name": "ERATON M190BL 910-005903 WIRELESS LOGITECH",
-      "price": 45,
-      "image": "https://732166-2448411-raikfcquaxqncofqfm.stackpathdns.com/pub/media/mf_webp/png/media/catalog/product/cache/0b781c169ebdcef6f5aeeb828beb89af/m/o/mouse-logitech-m187-inalambrico-verde_m37a6pteiimbw3us.webp",
-      "description": "RATON M190BL 910-005903 WIRELESS LOGITECH. Sistema operativo compatible: Windows® 7,9,10 o posterior. macOS 10.10 o posterior. Chrome OS™. Linux® kernel 2.6+. Interfaz: USB.",
-      "categoryId": 1,
-      "stock": 10
-    },
-    {
-      "id": 2,
-      "name": "Ups CDP R-SMART751 750VA",
-      "price": 5,
-      "image": "https://732166-2448411-raikfcquaxqncofqfm.stackpathdns.com/pub/media/mf_webp/png/media/catalog/product/cache/0b781c169ebdcef6f5aeeb828beb89af/u/p/ups-cdp-modelo-r-smart751-750va-10-out-350w_lhyuyssgrkonw0zq.webp",
-      "description": "UPS Modelo NT-751 Sistema de alimentación ininterrumpible Protección eléctrica para equipos de uso doméstico y comercial Regulador de voltaje (AVR), corrige automáticamente las variaciones en el suministro 6 tomacorrientes con supresión de sobretensiones respaldo de batería.",
-      "categoryId": 1,
-      "stock": 10
-    },
-    {
-      "id": 3,
-      "name": "Notebook Dell G5 15 5510 - W9XCT - I5-10200H/8GB/512GB SSD/NVIDIA 4GB/W10H/15.6",
-      "price": 17,
-      "image": "https://732166-2448411-raikfcquaxqncofqfm.stackpathdns.com/pub/media/mf_webp/png/media/catalog/product/cache/0b781c169ebdcef6f5aeeb828beb89af/n/o/notebook-dell-g5-15-5510---w9xct2.webp",
-      "description": "Laptop para juegos de 15 pulgadas con procesadores Intel® Core™ de 10.ª generación, gráficos Nvidia® GeForce®, refrigeración de dos ventiladores y tecnología Game Shift.",
-      "categoryId": 2,
-      "stock": 10
-    },
-    {
-      "id": 4,
-      "name": "Notebook HP Pavilion Laptop 15-EH0011LA | AMD Ryzen™ 7 4700U | 16GB RAM | 512GB SSD PCIe",
-      "price": 19,
-      "image": "https://732166-2448411-raikfcquaxqncofqfm.stackpathdns.com/pub/media/mf_webp/jpg/media/catalog/product/cache/0b781c169ebdcef6f5aeeb828beb89af/n/o/notebook-hp-pavilion-laptop-15-eh0011la-_-amd-ryzen_-7-4700u-_-16gb-ram-_-512gb-ssd-pcie.webp",
-      "description": "Sistema operativo: Windows 10 Home 64 HP Pavilion Laptop 15-eh0011la Microprocesador: AMD Ryzen™ 7 4700U (velocidad base de 2,0 GHz, velocidad de ráfaga máxima...",
-      "categoryId": 2,
-      "stock": 10
-    },
-    {
-      "id": 5,
-      "name": "Notebook Lenovo E14 GEN3",
-      "price": 399,
-      "image": "https://732166-2448411-raikfcquaxqncofqfm.stackpathdns.com/pub/media/mf_webp/jpg/media/catalog/product/cache/0b781c169ebdcef6f5aeeb828beb89af/0/4/04701-1689_02.webp",
-      "description": "RYZEN 5-5500U 2.1G/ 8GB DDR4 256GB SSD/14/W10P Laptop de 14” con procesamiento AMD Ryzen™ Pantalla FHD y sonido...",
-      "categoryId": 2,
-      "stock": 10
-    },
-    {
-      "id": 6,
-      "name": "Parlante LOGITECH Z607 Multimedia",
-      "price": 7,
-      "image": "https://732166-2448411-raikfcquaxqncofqfm.stackpathdns.com/pub/media/mf_webp/png/media/catalog/product/cache/0b781c169ebdcef6f5aeeb828beb89af/a/l/altavoces-z607-1_4yarlfn2sj4ahxqu.webp",
-      "description": "PARLANTE Z607 BT LOGITECH 980-001315 | Marca: Logitech | Potencia de salida máxima de los altavoces: 80 Vatios. | Bluetooth | True Sorround 5.1.",
-      "categoryId": 3,
-      "stock": 10
-    },
-    {
-      "id": 7,
-      "name": "Audifonos Kingston HyperX Cloud Orbit/Alambrico/HX-HSCOS-GM/W",
-      "price": 32,
-      "image": "https://732166-2448411-raikfcquaxqncofqfm.stackpathdns.com/pub/media/mf_webp/png/media/catalog/product/cache/0b781c169ebdcef6f5aeeb828beb89af/a/u/audifonos-kingston-hyperx-cloud-orbit-alambrico-hx-hscos-gm-ww-cn-bd1.webp",
-      "description": "Controladores magnéticos planos Audeze™ Audio 3D envolvente Waves Nx® Tecnología de seguimiento de cabeza Waves Nx® Personalización de audio avanzada Micrófono extraíble con cancelación de ruido y filtro antipop Tres opciones de cables...",
-      "categoryId": 3,
-      "stock": 10
-    },
-    {
-      "id": 8,
-      "name": "Audifonos Apple Airpods Max - Pink/Bluetooth/MGYM3AM/A",
-      "price": 20,
-      "image": "https://732166-2448411-raikfcquaxqncofqfm.stackpathdns.com/pub/media/mf_webp/png/media/catalog/product/cache/0b781c169ebdcef6f5aeeb828beb89af/m/g/mgym3am2.webp",
-      "description": "Presentamos los AirPods Max. El equilibrio perfecto entre un audio de alta fidelidad increíble y la mágica facilidad de uso de los AirPods. Tus próximos audífonos ya están aquí para brindarte una experiencia de audio inigualable.",
-      "categoryId": 3,
-      "stock": 10
-    }
-  ],
-  "orders": [
-    {
-      "id": 1,
-      "name": "Dominicode",
-      "date": "01/12/1995",
-      "shippingAddress": "Av. de la Granvia de Hospitalet, 115",
-      "city": "Barcelona",
-      "pickup": true
-    },
-    {
-      "name": "Herys",
-      "store": {
-        "id": 1,
-        "name": "Park Row at Beekman St",
-        "address": "38 Park Row",
-        "city": "New York",
-        "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
-      },
-      "date": "14/6/2022",
-      "pickup": false,
-      "id": 2
-    },
-    {
-      "name": "Herys Lopez",
-      "store": {
-        "id": 2,
-        "name": "Store Alcalá",
-        "address": "Calle de Alcalá, 21",
-        "city": "Madrid",
-        "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
-      },
-      "date": "14/6/2022",
-      "pickup": false,
-      "id": 3
-    },
-    {
-      "name": "dimas lopez",
-      "store": {
-        "id": 1,
-        "name": "Park Row at Beekman St",
-        "address": "38 Park Row",
-        "city": "New York",
-        "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
-      },
-      "date": "14/6/2022",
-      "pickup": false,
-      "id": 4
-    },
-    {
-      "name": "LULA PEREZ",
-      "shippingAddress": "Managua",
-      "city": "Managua",
-      "date": "14/6/2022",
-      "pickup": true,
-      "id": 5
-    },
-    {
-      "name": "ENRRIQUE PEREZ",
-      "shippingAddress": "TRINIDAD",
-      "city": "ESTELI",
-      "date": "14/6/2022",
-      "isDelivery": true,
-      "id": 6
-    },
-    {
-      "name": "ENRRIQUE PEREZ",
-      "shippingAddress": "TRINIDAD",
-      "city": "ESTELI",
-      "date": "14/6/2022",
-      "isDelivery": true,
-      "id": 7
-    },
-    {
-      "name": "ALEJANDRA",
-      "store": {
-        "id": 4,
-        "name": "Covent Garden - Russell St",
-        "address": "10 Russell Street",
-        "city": "London",
-        "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
-      },
-      "date": "14/6/2022",
-      "isDelivery": false,
-      "id": 8
-    },
-    {
-      "name": "MARIA URBINA",
-      "store": {
-        "id": 3,
-        "name": "Chambers and West Broadway",
-        "address": "125 Chambers Street",
-        "city": "New York",
-        "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
-      },
-      "date": "14/6/2022",
-      "isDelivery": false,
-      "id": 9
-    },
-    {
-      "name": "MARIA URBINA",
-      "store": {
-        "id": 3,
-        "name": "Chambers and West Broadway",
-        "address": "125 Chambers Street",
-        "city": "New York",
-        "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
-      },
-      "date": "14/6/2022",
-      "isDelivery": false,
-      "id": 10
-    },
-    {
-      "name": "ELIZABETH LOPEZ",
-      "shippingAddress": "SIUNA",
-      "city": "MANAGUA",
-      "date": "14/6/2022",
-      "isDelivery": true,
-      "id": 11
-    },
-    {
-      "name": "ELIZABETH LOPEZ",
-      "shippingAddress": "SIUNA",
-      "city": "MANAGUA",
-      "date": "14/6/2022",
-      "isDelivery": true,
-      "id": 12
-    },
-    {
-      "name": "MAYNOR PEREZ",
-      "store": {
-        "id": 5,
-        "name": "Monmouth St",
-        "address": "11 Monmouth Street",
-        "city": "London",
-        "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
-      },
-      "date": "14/6/2022",
-      "isDelivery": false,
-      "id": 13
-    },
-    {
-      "name": "BRYAN SOZA",
-      "store": {
-        "id": 3,
-        "name": "Chambers and West Broadway",
-        "address": "125 Chambers Street",
-        "city": "New York",
-        "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
-      },
-      "date": "15/6/2022",
-      "isDelivery": false,
-      "id": 14
-    },
-    {
-      "name": "CRISTHELCENTENO",
-      "shippingAddress": "CIUDAD SANDINO",
-      "city": "MANAGUA",
-      "date": "15/6/2022",
-      "isDelivery": true,
-      "id": 15
-    }
-  ],
   "detailsOrders": [
     {
       "id": 1,
       "orderId": 1,
-      "quantity": 10,
-      "productName": "Product name"
+      "productName": "Product name",
+      "quantity": 10
     },
     {
-      "details": [],
-      "orderId": 2,
-      "id": 2
+      "id": 2,
+      "orderId": 2
     },
     {
       "details": [
@@ -311,97 +37,155 @@
           "quantity": 2
         }
       ],
-      "orderId": 3,
-      "id": 3
+      "id": 3,
+      "orderId": 3
+    }
+  ],
+  "orders": [
+    {
+      "city": "Barcelona",
+      "date": "01/12/1995",
+      "id": 1,
+      "name": "Dominicode",
+      "pickup": true,
+      "shippingAddress": "Av. de la Granvia de Hospitalet, 115"
     },
     {
-      "details": [
-        {
-          "productId": 1,
-          "productName": "Essential TypeScript 4: From Beginner to Pro",
-          "quantity": 2
-        }
-      ],
-      "orderId": 4,
-      "id": 4
+      "date": "14/6/2022",
+      "id": 2,
+      "name": "Herys",
+      "pickup": false,
+      "store": {
+        "address": "38 Park Row",
+        "city": "New York",
+        "id": 1,
+        "name": "Park Row at Beekman St",
+        "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+      }
     },
     {
-      "details": [
-        {
-          "productId": 1,
-          "productName": "Essential TypeScript 4: From Beginner to Pro",
-          "quantity": 2
-        }
-      ],
-      "orderId": 5,
-      "id": 5
+      "date": "14/6/2022",
+      "id": 3,
+      "name": "Herys Lopez",
+      "pickup": false,
+      "store": {
+        "address": "Calle de Alcalá, 21",
+        "city": "Madrid",
+        "id": 2,
+        "name": "Store Alcalá",
+        "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+      }
+    }
+  ],
+  "products": [
+    {
+      "categoryId": 1,
+      "description": "RATON M190BL 910-005903 WIRELESS LOGITECH. Sistema operativo compatible: Windows® 7,9,10 o posterior. macOS 10.10 o posterior. Chrome OS™. Linux® kernel 2.6+. Interfaz: USB.",
+      "id": 1,
+      "image": "https://732166-2448411-raikfcquaxqncofqfm.stackpathdns.com/pub/media/mf_webp/png/media/catalog/product/cache/0b781c169ebdcef6f5aeeb828beb89af/m/o/mouse-logitech-m187-inalambrico-verde_m37a6pteiimbw3us.webp",
+      "name": "ERATON M190BL 910-005903 WIRELESS LOGITECH",
+      "price": 45,
+      "stock": 10
     },
     {
-      "details": [
-        {
-          "productId": 6,
-          "productName": "CL3 Rated High-Speed 4K HDMI Cable - 6 Feet",
-          "quantity": 1
-        },
-        {
-          "productId": 5,
-          "productName": "GoPro HERO9 Black - Waterproof Action Camera with Front LCD",
-          "quantity": 1
-        }
-      ],
-      "orderId": 6,
-      "id": 6
+      "categoryId": 1,
+      "description": "UPS Modelo NT-751 Sistema de alimentación ininterrumpible Protección eléctrica para equipos de uso doméstico y comercial Regulador de voltaje (AVR), corrige automáticamente las variaciones en el suministro 6 tomacorrientes con supresión de sobretensiones respaldo de batería.",
+      "id": 2,
+      "image": "https://732166-2448411-raikfcquaxqncofqfm.stackpathdns.com/pub/media/mf_webp/png/media/catalog/product/cache/0b781c169ebdcef6f5aeeb828beb89af/u/p/ups-cdp-modelo-r-smart751-750va-10-out-350w_lhyuyssgrkonw0zq.webp",
+      "name": "Ups CDP R-SMART751 750VA",
+      "price": 5,
+      "stock": 10
     },
     {
-      "details": [
-        {
-          "productId": 4,
-          "productName": "SanDisk 128GB Ultra MicroSDXC UHS-I Memory Card with Adapter",
-          "quantity": 1
-        },
-        {
-          "productId": 3,
-          "productName": "Angular Routing: Learn To Create client-side and SPA with Routing and Navigation",
-          "quantity": 1
-        }
-      ],
-      "orderId": 8,
-      "id": 7
+      "categoryId": 2,
+      "description": "Laptop para juegos de 15 pulgadas con procesadores Intel® Core™ de 10.ª generación, gráficos Nvidia® GeForce®, refrigeración de dos ventiladores y tecnología Game Shift.",
+      "id": 3,
+      "image": "https://732166-2448411-raikfcquaxqncofqfm.stackpathdns.com/pub/media/mf_webp/png/media/catalog/product/cache/0b781c169ebdcef6f5aeeb828beb89af/n/o/notebook-dell-g5-15-5510---w9xct2.webp",
+      "name": "Notebook Dell G5 15 5510 - W9XCT - I5-10200H/8GB/512GB SSD/NVIDIA 4GB/W10H/15.6",
+      "price": 17,
+      "stock": 10
     },
     {
-      "details": [],
-      "orderId": 9,
-      "id": 8
+      "categoryId": 2,
+      "description": "Sistema operativo: Windows 10 Home 64 HP Pavilion Laptop 15-eh0011la Microprocesador: AMD Ryzen™ 7 4700U (velocidad base de 2,0 GHz, velocidad de ráfaga máxima...",
+      "id": 4,
+      "image": "https://732166-2448411-raikfcquaxqncofqfm.stackpathdns.com/pub/media/mf_webp/jpg/media/catalog/product/cache/0b781c169ebdcef6f5aeeb828beb89af/n/o/notebook-hp-pavilion-laptop-15-eh0011la-_-amd-ryzen_-7-4700u-_-16gb-ram-_-512gb-ssd-pcie.webp",
+      "name": "Notebook HP Pavilion Laptop 15-EH0011LA | AMD Ryzen™ 7 4700U | 16GB RAM | 512GB SSD PCIe",
+      "price": 19,
+      "stock": 10
     },
     {
-      "details": [],
-      "orderId": 10,
-      "id": 9
+      "categoryId": 2,
+      "description": "RYZEN 5-5500U 2.1G/ 8GB DDR4 256GB SSD/14/W10P Laptop de 14” con procesamiento AMD Ryzen™ Pantalla FHD y sonido...",
+      "id": 5,
+      "image": "https://732166-2448411-raikfcquaxqncofqfm.stackpathdns.com/pub/media/mf_webp/jpg/media/catalog/product/cache/0b781c169ebdcef6f5aeeb828beb89af/0/4/04701-1689_02.webp",
+      "name": "Notebook Lenovo E14 GEN3",
+      "price": 399,
+      "stock": 10
     },
     {
-      "details": [],
-      "orderId": 11,
-      "id": 10
+      "categoryId": 3,
+      "description": "PARLANTE Z607 BT LOGITECH 980-001315 | Marca: Logitech | Potencia de salida máxima de los altavoces: 80 Vatios. | Bluetooth | True Sorround 5.1.",
+      "id": 6,
+      "image": "https://732166-2448411-raikfcquaxqncofqfm.stackpathdns.com/pub/media/mf_webp/png/media/catalog/product/cache/0b781c169ebdcef6f5aeeb828beb89af/a/l/altavoces-z607-1_4yarlfn2sj4ahxqu.webp",
+      "name": "Parlante LOGITECH Z607 Multimedia",
+      "price": 7,
+      "stock": 10
     },
     {
-      "details": [],
-      "orderId": 12,
-      "id": 11
+      "categoryId": 3,
+      "description": "Controladores magnéticos planos Audeze™ Audio 3D envolvente Waves Nx® Tecnología de seguimiento de cabeza Waves Nx® Personalización de audio avanzada Micrófono extraíble con cancelación de ruido y filtro antipop Tres opciones de cables...",
+      "id": 7,
+      "image": "https://732166-2448411-raikfcquaxqncofqfm.stackpathdns.com/pub/media/mf_webp/png/media/catalog/product/cache/0b781c169ebdcef6f5aeeb828beb89af/a/u/audifonos-kingston-hyperx-cloud-orbit-alambrico-hx-hscos-gm-ww-cn-bd1.webp",
+      "name": "Audifonos Kingston HyperX Cloud Orbit/Alambrico/HX-HSCOS-GM/W",
+      "price": 32,
+      "stock": 10
     },
     {
-      "details": [],
-      "orderId": 13,
-      "id": 12
+      "categoryId": 3,
+      "description": "Presentamos los AirPods Max. El equilibrio perfecto entre un audio de alta fidelidad increíble y la mágica facilidad de uso de los AirPods. Tus próximos audífonos ya están aquí para brindarte una experiencia de audio inigualable.",
+      "id": 8,
+      "image": "https://732166-2448411-raikfcquaxqncofqfm.stackpathdns.com/pub/media/mf_webp/png/media/catalog/product/cache/0b781c169ebdcef6f5aeeb828beb89af/m/g/mgym3am2.webp",
+      "name": "Audifonos Apple Airpods Max - Pink/Bluetooth/MGYM3AM/A",
+      "price": 20,
+      "stock": 10
+    }
+  ],
+  "stores": [
+    {
+      "address": "38 Park Row",
+      "city": "New York",
+      "id": 1,
+      "name": "Park Row at Beekman St",
+      "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
     },
     {
-      "details": [],
-      "orderId": 14,
-      "id": 13
+      "address": "Calle de Alcalá, 21",
+      "city": "Madrid",
+      "id": 2,
+      "name": "Store Alcalá",
+      "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
     },
     {
-      "details": [],
-      "orderId": 15,
-      "id": 14
+      "address": "125 Chambers Street",
+      "city": "New York",
+      "id": 3,
+      "name": "Chambers and West Broadway",
+      "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+    },
+    {
+      "address": "10 Russell Street",
+      "city": "London",
+      "id": 4,
+      "name": "Covent Garden - Russell St",
+      "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+    },
+    {
+      "address": "11 Monmouth Street",
+      "city": "London",
+      "id": 5,
+      "name": "Monmouth St",
+      "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
     }
   ]
 }

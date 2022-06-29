@@ -15,4 +15,10 @@ button{
     position: relative;
     width: 50%;
     left: 30%;
+    transition: 0.3s ease-in-out;
+}
+.product-image:hover
+{ 
+    transition: 0.3s ease-in-out;
+    transform: scale(1.1);
 }

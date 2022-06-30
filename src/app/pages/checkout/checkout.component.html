@@ -16,7 +16,7 @@
         <mat-radio-group class="form__element">
             <p>Choose an option:</p>
             <mat-radio-button value="pickup" (change)="onPickupOrDelivery(false)">Pickup</mat-radio-button>
-            <mat-radio-button value="delivery" (change)="onPickupOrDelivery(true)" checked>Delivery</mat-radio-button>
+            <mat-radio-button class="label_delivery" value="delivery" (change)="onPickupOrDelivery(true)" checked>Delivery</mat-radio-button>
         </mat-radio-group>
 
         <ng-container *ngIf="isDelivery; else showStores">

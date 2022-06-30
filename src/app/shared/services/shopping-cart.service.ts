@@ -32,6 +32,14 @@ export class ShoppingCartService {
     this.quantitySubject.next(0);
     this.products = [];
   }
+  resetQuantity(): void{
+    const quantity = this.products.reduce((acc, prod) => acc += prod.qty, 0);
+    this.quantitySubject.next(quantity);
+  }
+  resetTotal(): void{
+    const total = this.products.reduce((acc, prod) => acc += (prod.price * prod.qty), 0);
+    this.totalSubject.next(total);
+  }
   private addToCart(product: Product): void{
     const isProductInCart = this.products.find(({id}) => id == product.id);
     if(isProductInCart)
@@ -53,6 +61,15 @@ export class ShoppingCartService {
   private calcTotal(): void {
     const total = this.products.reduce((acc, prod) => acc += (prod.price * prod.qty), 0);
     this.totalSubject.next(total);
+  }
+  removeCartItem(product: any){
+    this.products.map((a:any, index:any)=>{
+      if(product.id=== a.id){
+        this.products.splice(index,1);
+      }
+    })
+    this.cartSubject.next(this.products);
+    
   }
   
 }

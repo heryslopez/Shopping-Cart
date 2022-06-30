@@ -13,5 +13,9 @@ export class DetailsComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+removeItem(item: any){
+  this.shoppingCartSvc.removeCartItem(item);
+  this.shoppingCartSvc.resetTotal();
+  this.shoppingCartSvc.resetQuantity();
+}
 }
